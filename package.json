@@ -10,6 +10,7 @@
     "lint:staged": "eslint --pass-on-no-patterns --no-warn-ignored $(git diff --cached --name-only --diff-filter=d)",
     "lint:fix": "npm run lint:changed -- --fix",
     "lint:inspect": "npx eslint --inspect-config",
+    "precommit": "npm run lint:changed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -18,6 +19,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^4.1.0",
     "bun-types": "latest",
-    "eslint-plugin-format": "^1.0.1"
+    "eslint-plugin-format": "^1.0.1",
+    "simple-git-hooks": "^2.11.1"
   }
 }
