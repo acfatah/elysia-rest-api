@@ -1,5 +1,6 @@
 {
   "name": "elysia-rest-api",
+  "description": "REST API using Elysia with the Bun runtime",
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
