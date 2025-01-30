@@ -14,7 +14,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "elysia": "latest"
+    "elysia": "latest",
+    "elysia-helmet": "^2.0.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.1.0",
