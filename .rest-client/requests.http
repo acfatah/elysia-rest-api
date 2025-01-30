@@ -1,0 +1,28 @@
+GET http://localhost:3000/hello
+
+###
+GET http://localhost:3000/status
+
+###
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+  "email": "sample",
+  "password": "blablabla"
+}
+
+###
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+  "email": "admin",
+  "password": "password"
+}
+
+###
+POST http://localhost:3000/logout
+
+###
+GET http://localhost:3000/users
