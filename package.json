@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "elysia": "latest",
-    "elysia-helmet": "^2.0.0"
+    "elysia-helmet": "^2.0.0",
+    "logestic": "^1.2.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.1.0",
